@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VNR_InternShip", "VNR_InternShip\VNR_InternShip.csproj", "{FFF5F3DA-3D58-4DEF-8CFD-179DC290A474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF5F3DA-3D58-4DEF-8CFD-179DC290A474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF5F3DA-3D58-4DEF-8CFD-179DC290A474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF5F3DA-3D58-4DEF-8CFD-179DC290A474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF5F3DA-3D58-4DEF-8CFD-179DC290A474}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A19E8D9B-D1F6-495F-8927-F90F4A39AC7C}
+	EndGlobalSection
+EndGlobal

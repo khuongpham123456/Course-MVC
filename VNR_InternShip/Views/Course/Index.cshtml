@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Course Page";
+}
+
+<div class="container-fluid px-5 pt-5">
+    <div class="row">
+      <div class="col-md-8 col shadow p-3 mb-5 bg-white rounded">
+            
+            @if (ViewBag.Course != null)
+            {
+                <h1>Khóa Học: @Html.Raw(ViewBag.Course.TenKhoaHoc) </h1>
+            }
+            <hr width="100%" size="10px" />
+          <div>
+              <ul>
+                  @if(ViewBag.Subjects != null)
+                  { 
+                        @foreach (var item in @ViewBag.Subjects )
+                        {
+                            <p>@item.TenMonHoc</p>
+                        }
+                  }else{
+                        <p>Không có danh sách môn học !!!</p>
+                  }
+              </ul>
+            </div>
+      </div>
+      <div class="col-md-3 col shadow p-3 mb-5 bg-white rounded">
+          <h1 >Khóa Học</h1>
+          <hr width="100%" size="10px" />
+          <div>
+            @foreach (var item in @ViewBag.Courses)
+            {
+               <li>@Html.ActionLink((string)@item.TenKhoaHoc, "Index","Course", new { id=@item.Id }, null)</li>
+            }
+         </div>
+      </div>
+    </div>
+    
+</div>
